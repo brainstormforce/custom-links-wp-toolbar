@@ -1,8 +1,8 @@
 <?php
 /**
-* Plugin Name: Custom Admin Bar URL
+* Plugin Name: Custom Links in WP Toolbar  
 * Plugin URI: https://www.brainstormforce.com/
-* Description: 
+* Description: Add a custom shortcut link to the WordPress toolbar with this plugin.
 * Version: 1.0.0
 * Author: Brainstorm Force
 * Author URI: https://www.brainstormforce.com/
@@ -132,8 +132,8 @@ if(!class_exists('Custom_Admin_Bar_Url_Class')){
 	        ?>
 	        <div class="wrap about-wrap">
 	            <div class="heading-section">
-					<h1><?php echo __( 'Custom Admin Bar URL', 'smile' ); ?></h1>
-					<div class="about-text about-text"><?php echo __( 'Lorem Ipsum', 'smile' ); ?></div>
+					<h1><?php echo __( 'Custom Links in WP Toolbar  ', 'smile' ); ?></h1>
+					<div class="about-text about-text"><?php echo __( 'Add a custom shortcut link to the WordPress toolbar with this plugin.', 'smile' ); ?></div>
 					<div class="badge"></div>
 					<div class="tabs">
 						<form method="post" action="options.php" autocomplete="off">

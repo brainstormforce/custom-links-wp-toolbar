@@ -1,0 +1,213 @@
+/* CSS Document */
+
+.deactivated-error {
+    margin: 5px 0 15px;
+    border-left: 4px solid #dc3232;
+    padding: 1px 12px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background: #fff none repeat scroll 0 0;
+    outline: 0 none;
+    color: #444;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+}
+
+.fd-message {
+    background: #eff8e6 none repeat scroll 0 0;
+    border: 1px solid #d6eebd;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    color: #424242;
+    margin: 0 0 1.758em;
+    padding: 20px;
+}
+
+.fd-message::before {
+    bottom: -0.18em;
+    color: #d6eebd;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 4.5em;
+    font-weight: 400;
+    line-height: 100%;
+    position: absolute;
+    right: -0.18em;
+    -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+         -o-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    width: auto;
+}
+
+.group::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.form-table {
+	width:100%;
+}
+
+form#cp_sync_admin_setting .form-table th {
+    width: 300px;
+}
+form#cp_sync_admin_setting .form-table.cf_table th {
+    width: 200px;
+}
+
+.about-text {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #777;
+    margin: 1em 200px 1em 0;
+    min-height: 60px;
+}
+
+
+.check-yesno {
+    margin-left: 80px;
+}
+
+.check-yes {
+    color: #34A7C1;
+}
+
+.check-no {
+    color: #6F7979;
+}
+
+.clear {
+    clear: both;
+}
+
+.heading-section {
+    position: relative;
+}
+
+.heading-section h1 {
+    margin: 0 200px 20px 0;
+    padding: 0;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 1.3em;
+}
+
+.heading-section h3 {
+    margin: 0 200px 15px 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.45em;
+    letter-spacing: 0;
+    color: #777;
+}
+
+.tabs {
+    margin: 1em 15px;
+}
+
+#shortcode-tab table tbody tr td {
+    border-bottom: 1px solid #e0e0e0;
+    min-width: 160px;
+    padding: 7px;
+}
+
+/* ============================================================
+  COMMON
+  ============================================================ */
+.wrapper {
+    min-width: 600px;
+}
+
+.settings {
+    display: table;
+    width: 100%;
+}
+
+.settings .row {
+    display: table-row;
+}
+
+.settings .switch {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+/* ============================================================
+  COMMON
+  ============================================================ */
+.toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+.toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+/* ============================================================
+  Switch 1 - ROUND
+  ============================================================ */
+input.toggle-round + label {
+    padding: 2px;
+    width: 70px;
+    height: 30px;
+    background-color: #dddddd;
+    -webkit-border-radius: 60px;
+            border-radius: 60px;
+}
+
+input.toggle-round + label:before, input.toggle-round + label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+
+input.toggle-round + label:before {
+    right: 1px;
+    background-color: #f1f1f1;
+    -webkit-border-radius: 60px;
+            border-radius: 60px;
+    -webkit-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
+}
+
+input.toggle-round + label:after {
+    width: 30px;
+    background-color: #fff;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transition: margin 0.4s;
+    -o-transition: margin 0.4s;
+    transition: margin 0.4s;
+}
+
+input.toggle-round:checked + label:before {
+    background-color: #34a7c1;
+}
+
+input.toggle-round:checked + label:after {
+    margin-left: 42px;
+}
+
+/*# sourceMappingURL=sourcemap/fd-style.css.map */

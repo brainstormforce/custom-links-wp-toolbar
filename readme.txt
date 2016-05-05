@@ -31,3 +31,8 @@ It has two simple options:
 == Screenshots ==
 
 http://goo.gl/Lpl46v
+
+== Installation ==
+
+v1.0 - 5-May-2016
+# Initial release.
